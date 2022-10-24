@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Blog For Friends</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Тест на построение социальной сети" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="icon" href="images/logo.svg" type="image/svg" sizes="64x64" />
+    <link rel="icon" href="images/logo.svg" type="image/svg" sizes="32x32" />
+    <link rel="icon" href="images/logo.svg" type="image/svg" sizes="16x16" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header__row">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Логотип" width="60" height="48" />
+          </div>
+          <div class="title">Blog for friends</div>
+          <div>
+            <a class="login__btn" href="login.html">Login</a>
+          </div>
+        </div>
+        <main class="main">
+          <div class="first__block">
+            <!-- <div class="post__overview" onclick="location.href='post.html';">
+              <div class="title__post">
+                <p>1 Lorem ipsum</p>
+              </div>
+              <div class="short__description__post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Explicabo incidunt tempora quia beatae
+                  aperiam ab iusto quibusdam odio harum laudantium, tenetur
+                  illum dolor a deserunt ut, doloribus praesentium esse
+                  amet!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet!
+                </p>
+              </div>
+              <div class="footer__post">
+                <div class="like__img">
+                  <img
+                    src="images/like.svg"
+                    alt="Лайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="like__count">
+                  <p>12</p>
+                </div>
+                <div class="dislike__img">
+                  <img
+                    src="images/dislike.svg"
+                    alt="Дизлайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="dislike__count">
+                  <p>1</p>
+                </div>
+                <div class="author__name">
+                  <p>Anna</p>
+                </div>
+                <div class="author__img">
+                  <img
+                    src="images/ava1.svg"
+                    alt="Аватар"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="post__overview" onclick="location.href='post.html';">
+              <div class="title__post">
+                <p>
+                  2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="short__description__post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet!
+                </p>
+              </div>
+              <div class="footer__post">
+                <div class="like__img">
+                  <img
+                    src="images/like.svg"
+                    alt="Лайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="like__count">
+                  <p>12</p>
+                </div>
+                <div class="dislike__img">
+                  <img
+                    src="images/dislike.svg"
+                    alt="Дизлайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="dislike__count">
+                  <p>1</p>
+                </div>
+                <div class="author__name">
+                  <p>Bob</p>
+                </div>
+                <div class="author__img">
+                  <img
+                    src="images/ava2.svg"
+                    alt="Аватар"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="second__block">
+            <!-- <div class="post__overview" onclick="location.href='post.html';"> 
+              <div class="title__post">
+                <p>Explicabo incidunt tempora quia</p>
+              </div>
+              <div class="long__description__post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Explicabo incidunt tempora quia beatae
+                  aperiam ab iusto quibusdam odio harum laudantium, tenetur
+                  illum dolor a deserunt ut, doloribus praesentium esse
+                  amet!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Explicabo incidunt tempora quia beatae
+                  aperiam ab iusto quibusdam odio harum laudantium, tenetur
+                  illum dolor a deserunt ut, doloribus praesentium esse amet!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet!
+                </p>
+              </div>
+              <div class="footer__post">
+                <div class="like__img">
+                  <img
+                    src="images/like.svg"
+                    alt="Лайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="like__count">
+                  <p>12</p>
+                </div>
+                <div class="dislike__img">
+                  <img
+                    src="images/dislike.svg"
+                    alt="Дизлайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="dislike__count">
+                  <p>1</p>
+                </div>
+                <div class="author__name">
+                  <p>Anna</p>
+                </div>
+                <div class="author__img">
+                  <img
+                    src="images/ava1.svg"
+                    alt="Аватар"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="third__block">
+            <!-- <div class="post__overview" onclick="location.href='post.html';">
+              <div class="title__post">
+                <p>Explicabo incidunt tempora quia</p>
+              </div>
+              <div class="long__description__post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Explicabo incidunt tempora quia beatae
+                  aperiam ab iusto quibusdam odio harum laudantium, tenetur
+                  illum dolor a deserunt ut, doloribus praesentium esse
+                  amet!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet!
+                </p>
+              </div>
+              <div class="footer__post">
+                <div class="like__img">
+                  <img
+                    src="images/like.svg"
+                    alt="Лайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="like__count">
+                  <p>12</p>
+                </div>
+                <div class="dislike__img">
+                  <img
+                    src="images/dislike.svg"
+                    alt="Дизлайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="dislike__count">
+                  <p>1</p>
+                </div>
+                <div class="author__name">
+                  <p>Bob</p>
+                </div>
+                <div class="author__img">
+                  <img
+                    src="images/ava2.svg"
+                    alt="Аватар"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="fourth__block">
+            <!-- <div class="post__overview" onclick="location.href='post.html';">
+              <div class="title__post">
+                <p>Consectetur adipisicing elit.</p>
+              </div>
+              <div class="short__description__post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet!
+                </p>
+              </div>
+              <div class="footer__post">
+                <div class="like__img">
+                  <img
+                    src="images/like.svg"
+                    alt="Лайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="like__count">
+                  <p>12</p>
+                </div>
+                <div class="dislike__img">
+                  <img
+                    src="images/dislike.svg"
+                    alt="Дизлайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="dislike__count">
+                  <p>1</p>
+                </div>
+                <div class="author__name">
+                  <p>Bob</p>
+                </div>
+                <div class="author__img">
+                  <img
+                    src="images/ava2.svg"
+                    alt="Аватар"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="post__overview" onclick="location.href='post.html';">
+              <div class="title__post">
+                <p>
+                  Illum dolor a deserunt ut. ab iusto quibusdam odio harum
+                  laudantium praesentium esse.
+                </p>
+              </div>
+              <div class="short__description__post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet! Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Explicabo
+                  incidunt tempora quia beatae aperiam ab iusto quibusdam odio
+                  harum laudantium, tenetur illum dolor a deserunt ut, doloribus
+                  praesentium esse amet!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Explicabo incidunt tempora quia beatae
+                  aperiam ab iusto quibusdam odio harum laudantium, tenetur
+                  illum dolor a deserunt ut, doloribus praesentium esse
+                  amet!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo incidunt tempora quia beatae aperiam ab iusto
+                  quibusdam odio harum laudantium, tenetur illum dolor a
+                  deserunt ut, doloribus praesentium esse amet!
+                </p>
+              </div>
+              <div class="footer__post">
+                <div class="like__img">
+                  <img
+                    src="images/like.svg"
+                    alt="Лайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="like__count">
+                  <p>12</p>
+                </div>
+                <div class="dislike__img">
+                  <img
+                    src="images/dislike.svg"
+                    alt="Дизлайк"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+                <div class="dislike__count">
+                  <p>1</p>
+                </div>
+                <div class="author__name">
+                  <p>Anna</p>
+                </div>
+                <div class="author__img">
+                  <img
+                    src="images/ava1.svg"
+                    alt="Аватар"
+                    width="30"
+                    height="30"
+                  />
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <script src="./js/main.js"></script>
+        </main>
+        <div class="pagination">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

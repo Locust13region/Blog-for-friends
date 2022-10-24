@@ -1,0 +1,149 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font: 15px arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.violet__dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  flex-grow: 0;
+  background-color: blueviolet;
+}
+.post__creation__date {
+  flex-grow: 0;
+}
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+}
+.author__name {
+  flex-grow: 0;
+  text-align: right;
+  cursor: pointer;
+}
+.author__img {
+  flex-grow: 0;
+  cursor: pointer;
+}
+h1{
+	font-size: 32px;
+	margin: 40px 0;
+}
+.post__description{
+	font-size: 18px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid blueviolet;
+	margin-bottom: 40px;
+}
+h2{
+	font-size: 24px;
+	margin: 40px 0 20px 0;
+}
+p{
+margin-bottom: 20px;
+}
+.footer__row {
+	display: flex;
+	justify-content:space-around;
+	margin-bottom: 20px;
+}
+.like__img {
+	cursor: pointer;
+}
+.dislike__img {
+	cursor: pointer;
+}
+.back_to_main {
+	text-align: center;
+	font-size: 26px;
+	cursor: pointer;
+  }

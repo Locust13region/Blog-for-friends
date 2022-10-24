@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Pay INFO</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="icon" href="/images/logo.svg" type="image/png" sizes="64x64" />
+    <link rel="icon" href="/images/logo.svg" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/images/logo.svg" type="image/png" sizes="16x16" />
+    <link rel="stylesheet" href="css/pay.css" />
+  </head>
+
+  <body>
+    <form action="#">
+      <div class="container">
+
+		<div class="card_info">
+				<input class="card_holder" type="text" placeholder="CARD HOLDER" autofocus/>
+				<input class="card_number" type="text" placeholder="CARD NUMBER"/>
+			<div> VALID THRU</div>
+			<div class="card_valid">
+				<input class="card_valid_month" type="text" placeholder="MM"/>
+				<div>/</div>
+				<input class="card_valid_year" type="text" placeholder="YY"/>
+				<div class="master_img">
+					<img
+					  src="images/ava1.svg"
+					  alt="Аватар"
+					  width="50"
+					  height="40"
+					/>
+				  </div>
+				<div class="visa_img">
+					<img
+					  src="images/ava2.svg"
+					  alt="Аватар"
+					  width="50"
+					  height="40"
+					/>
+				  </div>
+			</div>
+		</div>
+		<div class="card_cvc">
+			<div class="magnet_stripe"></div>
+			<input class="cvc" type="text" placeholder="CVC"/>
+		</div>
+		<div class="apply_button">
+			<button class="button">Apply</button>
+		</div>
+	  </div>
+    </form>
+  </body>
+</html>

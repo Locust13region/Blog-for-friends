@@ -1,0 +1,194 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font: 15px arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 60px auto;
+    padding: 15px;
+    background-color: #fbf9f7;
+}
+.card_info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 350px;
+	height: 210px;
+	padding: 15px;
+	border: 3px solid gainsboro;
+	border-radius: 20px;
+	position: relative;
+	top: 40px;
+	left: 40px;
+	z-index: 2;
+	background-color: #efefef;
+}
+.card_holder {
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+	border: 3px solid gainsboro;
+	border-radius: 10px;
+}
+.card_number {
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+	border: 3px solid gainsboro;
+	border-radius: 10px;
+}
+.card_valid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.card_valid_month {
+	width: 80px;
+	height: 40px;
+	padding-left: 10px;
+	border: 3px solid gainsboro;
+	border-radius: 10px;
+}
+.card_valid_year {
+	width: 80px;
+	height: 40px;
+	padding-left: 10px;
+	border: 3px solid gainsboro;
+	border-radius: 10px;
+}
+.master_img {
+}
+.visa_img {
+}
+.card_cvc {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 10px;
+	width: 350px;
+	height: 210px;
+	padding: 15px;
+	border: 3px solid gainsboro;
+	border-radius: 20px;
+	position: relative;
+	bottom: 120px;
+	left: 180px;
+	z-index: 1;
+	background-color: #efefef;
+}
+.magnet_stripe {
+	height: 40px;
+	width: 344px;
+	margin-left: -15px;
+	background-color: black;
+}
+.cvc {
+	width: 80px;
+	height: 40px;
+	padding-left: 10px;
+	border: 3px solid gainsboro;
+	border-radius: 10px;
+	align-self: flex-end;
+}
+.apply_button {
+}
+.button {
+    border-radius: 6px;
+    background-color: #cbcbcb;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+	position: relative;
+	bottom: 80px;
+	left: 250px;
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button:active {
+    background-color: #929292;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
